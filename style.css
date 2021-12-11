@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color: #cbb6b5;
+}
+
 li{
     display: inline;
     padding: 0px 20px;
@@ -5,13 +10,21 @@ li{
 }
 
 header{
+    position: fixed;
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: rgba(87,97,109,255)
-;
+    background-color: #161318;
 }
 
 .right{
     text-align: right;
+}
+
+.centered{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
